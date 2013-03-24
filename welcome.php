@@ -1,0 +1,1 @@
+<?php var_dump ($_POST); $rex_code = 'http://theshortcode.us/wp-content/plugins/rexcode-uploader/uploads/'.$_POST['uploader_0_tmpname']; ?><a href="<?php echo $rex_code; ?>">link</a>
