@@ -4,7 +4,7 @@ Plugin Name: Rexcode Upload
 Plugin URI: http://ellasol.com/
 Description: Using [rexcode], add a configurable plupload instance to WP
 Version: 0.2
-Author: Rex Keal
+Author: Rex Keal and Erin Schoellhorn
 Author URI: http://ellasol.com
 License: GPLv2
 */
