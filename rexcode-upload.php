@@ -18,7 +18,7 @@ function plu_enqueue() {
 	wp_register_style('jquery-style-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css');
 	wp_enqueue_style('jquery-style-ui');
 	
-	wp_register_script('jq-min', 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js', array('jquery'));
+	wp_register_script('jq-min', $plugs_dir.'/js/jquery.min.js', array('jquery'));
 	wp_enqueue_script('jq-min');
 
 	wp_enqueue_script('plupload-all');
